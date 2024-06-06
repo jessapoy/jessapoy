@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T02:21:25.441Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="nFt7Fb_FDf95O4goGrWm" version="24.4.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-06T02:39:06.199Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="iC03Y3gZeuyCBp_9nwL2" version="24.4.13" type="github" pages="3">
   <diagram name="Page-1" id="Bt-Prqsc08S4VrHp_V5Z">
     <mxGraphModel dx="1026" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -93,17 +93,29 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4lWUt38a49ij_1Tf9b_s-2" value="&lt;div&gt;PERSON&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;&lt;u&gt;PersonID&lt;/u&gt;&lt;br&gt;PersonName&lt;br&gt;Sex&lt;br&gt;Hometown&lt;/b&gt;&lt;br&gt;Occupation" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="180" y="200" width="170" height="180" as="geometry" />
+        <mxCell id="4lWUt38a49ij_1Tf9b_s-2" value="&lt;div&gt;PERSON&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;u style=&quot;font-weight: bold;&quot;&gt;PersonID&lt;/u&gt;&lt;br&gt;&lt;b&gt;PersonName (First, Last)&lt;/b&gt;&lt;br&gt;Sex&lt;br&gt;Hometown&lt;br&gt;Occupation" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="197.5" width="170" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="4lWUt38a49ij_1Tf9b_s-3" value="&lt;div&gt;RELATIONSHIP&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Partner&lt;br&gt;&lt;div&gt;Married&lt;br&gt;Children&lt;/div&gt;" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="470" y="197.5" width="160" height="185" as="geometry" />
+        <mxCell id="4lWUt38a49ij_1Tf9b_s-3" value="&lt;div&gt;RELATIONSHIP&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Partner&lt;div&gt;Children&lt;/div&gt;" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="195" width="160" height="185" as="geometry" />
         </mxCell>
-        <mxCell id="4lWUt38a49ij_1Tf9b_s-4" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4lWUt38a49ij_1Tf9b_s-2" target="4lWUt38a49ij_1Tf9b_s-3">
+        <mxCell id="4lWUt38a49ij_1Tf9b_s-4" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="1" source="4lWUt38a49ij_1Tf9b_s-2" target="4lWUt38a49ij_1Tf9b_s-3">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="370" y="370" as="sourcePoint" />
             <mxPoint x="470" y="270" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4lWUt38a49ij_1Tf9b_s-6" value="&lt;b&gt;Married&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QGQ0AFx4BzGMjgcJBzaF-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="4lWUt38a49ij_1Tf9b_s-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="290" as="sourcePoint" />
+            <mxPoint x="450" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QGQ0AFx4BzGMjgcJBzaF-4" value="dates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
